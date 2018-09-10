@@ -1,0 +1,161 @@
+html {
+  box-sizing: border-box;
+  font-weight: normal;
+  line-height: 200%;
+  color: #333333;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/****set up grid for body****/
+
+.portfolio {
+ display: grid;
+ grid-template-rows: auto;
+}
+
+
+/****navigation****/
+
+.navigation {
+  display: grid;
+  font-family: "josefin+sans", "Lato", "Helvetica", "Sans-Serif";
+  grid-gap: 1.5rem;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 50px);
+  margin: 0 auto;
+  width: 80%;
+}
+
+
+
+/****introduction****/
+
+.intro {
+  display: grid;
+  font-family: "josefin+sans", "Lato", "Helvetica", "Sans-Serif";
+  grid-gap: 1.5rem;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(9, 50px);
+  line-height: 1.5;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.logo {
+  grid-column: 3 / 3;
+}
+
+h1 {
+  font-size: 2.2rem;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row: 3;
+}
+
+.skills {
+  font-size: 1.3rem;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row: 7;
+}
+
+
+/****projects****/
+
+h2 { /***project name***/
+  font-family: "josefin+sans", "Lato", "Helvetica", "Sans-Serif";
+  font-size: 1.8rem;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row: 2;
+
+}
+
+h3 { /***project roles***/
+  font-family: "Abel";
+  font-size: 1.8rem;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row: 3;
+}
+
+.button1 {
+  font-family: "Montserrat", "Lato", "Helvetica", "Sans-Serif";
+  font-size: .8rem;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row: 5;
+}
+
+.project1 {
+  background-color: #06465C;
+  color: #fff;
+  display: grid;
+  font-family: "josefin+sans", "Lato", "Helvetica", "Sans-Serif";
+  grid-gap: 1.5rem;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 50px);
+  margin: 0 auto;
+  width: 80%;
+}
+.image1 {
+  margin: 0 auto;
+}
+
+.button1 {
+  font-family: "Montserrat", "Lato", "Helvetica", "Sans-Serif";
+  font-size: .8rem;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row: 4;
+}
+
+
+
+
+.project2 {
+  background-color: #73BCB1;
+  display: grid;
+  font-family: "josefin+sans", "Lato", "Helvetica", "Sans-Serif";
+  grid-gap: 1.5rem;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(6, 50px);
+  margin: 0 auto;
+  width: 80%;
+}
+
+.image2 {
+  margin: 0 auto;
+}
+
+.project3 {
+  background-color: #FF9831;
+  display: grid;
+  font-family: "josefin+sans", "Lato", "Helvetica", "Sans-Serif";
+  grid-gap: 1.5rem;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(6, 50px);
+  margin: 0 auto;
+  width: 80%;
+}
+
+.image2 {
+  margin: 0 auto;
+}
+
+/****footer****/
+
+footer {
+  display: grid;
+  font-family: "josefin+sans", "Lato", "Helvetica", "Sans-Serif";
+  grid-gap: 1.5rem;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 50px);
+  margin: 0 auto;
+  width: 80%;
+}
