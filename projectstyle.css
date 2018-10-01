@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Josefin+Sans|Montserrat');
+
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: "Montserrat", "helvetica", sans-serif;
+  color: #222;
+}
+
+
+/*navigation*/
+
+.navbar {
+  padding: .8rem:
+}
+
+.navbar-nav li {
+  padding-right: 4rem;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  color: #06465C /*working?*/
+}
+
+/*intro*/
+
+.intro {
+  padding: 2rem;
+  margin: 40px 0 40px 0;
+}
+
+/*problem/solution*/
+
+.problem {
+  padding: 5rem;
+}
+
+/*roles*/
+
+.roles {
+  background-color: #06465C;
+  color: #fff;
+  padding: 2rem;
+}
+
+/*research*/
+
+.research {
+  padding: 5rem;
+}
+
+/*key findings*/
+
+.turquoise {
+  background-color: #06465C;
+  padding: 1rem;
+}
+
+h4.key {
+  color: #fff;
+  padding: 2rem;
+}
+
+/*gap in market*/
+
+h4.gap {
+  padding: 2rem;
+}
+
+.graph {
+  margin-left: 4rem;
+  padding: 2rem;
+}
+.survey {
+  padding: 2rem;
+  background-color: #06465C;
+}
+
+footer.container-fluid {
+  margin: 0;
+}
+
+/*competitive analysis*/
+
+.competitive {
+  padding: 5rem;
+}
+
+/*strategy*/
+
+.strategy {
+  background-color: #06465C;
+  color: #fff;
+  padding: 3rem;
+}
+
+p.col-md-6 {
+  padding: 1rem;
+}
+
+
+/*personas*/
+
+.headshot {
+  padding-top: 2rem;
+}
+.card-img-top {
+  height: 7rem;
+  width: 7rem;
+}
+
+.card-deck {
+  margin: 0;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.personas {
+  background-color: #73BCB1
+}
+
+/*information architecture*/
+
+.information {
+  padding: 5rem;
+}
+
+.maps {
+  width: 90%;
+  padding-bottom: 2rem;
+  
+}
+
+/*wireframes*/
+
+.wire {
+  background-color: #73BCB1
+}
+
+.wire-mobile {
+  padding: 3rem;
+}
+
+
+.wire-desktop, .wire-files {
+  padding: 1rem;
+}
+
+/*branding*/
+
+.mindMap {
+  padding: 3rem;
+}
+
+/*style guide*/
+
+.style-guide {
+  background-color: #06465C;
+  color: #fff;
+  
+}
+
+aside.col-md-6 {
+  padding: 2rem;
+}
+
+/*color palette*/
+
+.color {
+  padding: 1.5rem;
+}
+
+/*initial designs*/
+
+.iterations {
+  background-color: #06465C;
+  color: #fff;
+}
+
+.initial {
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+}
+
+/*updates*/
+
+
+/*conclusion*/
+
+.conclusion {
+  background-color: #06465C;
+  color: #fff;
+}
+
+/*footer*/
+
+footer {
+  
+  padding: 5rem;
+}
+
+.social {
+  padding: 5rem;
+}
+
+
+
+
+
+
+
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {}
+
+
+
+
+@media (min-width: 768px) {
+
+.mindMap {
+  margin-left: 40px;
+ }
+
+ .social {
+   width: 60%;
+   margin: 0 auto;
+ }
+} 
+
+
+@media (max-width: 576px) {
+
+}
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
