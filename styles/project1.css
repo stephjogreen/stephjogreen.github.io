@@ -40,11 +40,11 @@ html, body {
 
 /*roles*/
 
-.roles {
+.tools {
   background-color: #06465C;
-  color: #fff;
-  padding: 2rem;
+  
 }
+
 
 /*research*/
 
@@ -56,12 +56,13 @@ html, body {
 
 .turquoise {
   background-color: #06465C;
-  padding: 1rem;
+  
 }
 
 h4.key {
   color: #fff;
-  padding: 2rem;
+  margin: 10px;
+  
 }
 
 /*gap in market*/
@@ -89,17 +90,20 @@ footer.container-fluid {
   padding: 5rem;
 }
 
+
+
 /*strategy*/
 
 .strategy {
   background-color: #06465C;
   color: #fff;
-  padding: 3rem;
 }
 
-p.col-md-6 {
-  padding: 1rem;
+.flow {
+  padding-left: 7rem;
 }
+
+
 
 
 /*personas*/
@@ -155,6 +159,10 @@ p.col-md-6 {
   padding: 3rem;
 }
 
+.logo {
+  padding: 3rem;
+}
+
 /*style guide*/
 
 .style-guide {
@@ -181,11 +189,17 @@ aside.col-md-6 {
 }
 
 .initial {
+  max-width: 90%;
   padding-bottom: 1.5rem;
   padding-top: 1.5rem;
 }
 
 /*updates*/
+
+.future {
+  background-color: #73BCB1;
+  
+}
 
 
 /*conclusion*/
@@ -230,12 +244,25 @@ footer {
    width: 60%;
    margin: 0 auto;
  }
+
+ aside.col-md-6 {
+   padding: 5rem;
+ }
+
+ 
 } 
 
 
 @media (max-width: 576px) {
 
+  .flow {
+    padding-left: 0;
+  }
+
+  
 }
+
+
 
 
 /*
