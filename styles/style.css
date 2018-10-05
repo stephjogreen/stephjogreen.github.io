@@ -3,6 +3,7 @@
 
 html, body {
   height: 100%;
+  line-height: 2rem;
   width: 100%;
   font-family: "Montserrat", "helvetica", sans-serif;
   color: #222;
@@ -12,11 +13,14 @@ html, body {
   padding: 0;
 }
 
+.jams {  /*fix squares*/
+ max-height: 621px;
+}
 
 /*navigation*/
 
 .navbar {
-  padding: .8rem:
+  padding: .8rem;
 }
 
 .navbar-nav li {
@@ -66,18 +70,14 @@ jumbotron.padding {
 
 .welcome {
   color: #fafafa;
-  
   margin: 0 auto;
   padding-top: 10rem;
-  padding-bottom: 10rem;
 }
 
 .parallax {
   /* The image used */
-  background-image: url("images/sunset.png");
-
-  /* Set a specific height */
-  min-height: 500px; 
+  background-image: url("../images/sunset.png");  
+  min-height: 500px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -95,6 +95,10 @@ jumbotron.padding {
 
 .container-fluid {
   margin: 0;
+}
+
+.project1 {
+  background-color: #06465C;
 }
 
 
@@ -196,19 +200,19 @@ footer.container-fluid {
 
 
 /*---Media Queries --*/
-@media (min-width: 992px) {
+@media (min-width: 992px) {}
 
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 768px) {}
 
 
 
 @media (max-width: 576px) {
 
+}
 
-  
 
 
 /*
