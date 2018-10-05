@@ -22,7 +22,7 @@
 
     <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
       <section class= "container-fluid">
-        <a class="navbar-brand" href="index2.html"><img src="images/Personal Logo.png"></a>
+        <a class="navbar-brand" href="index.html"><img src="images/Personal Logo.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse"
         data-target="#navbarResponsive">
           <span class="navbar-toggler-icon"></span>
@@ -57,26 +57,31 @@
 
     <header class= "container-fluid">
       <div class="row jumbotron">
-        <div class="col-xs-12 col-sm-12 col md-12 col-lg-9 col-xl-9">
+        <div class="mx-auto col-xs-12 col-sm-12 col md-12 col-lg-9 col-xl-9">
           <p class="lead">UX/UI | User Research | Prototyping | Accessability | Frontend Coding | Branding | Mood Boards</p>
         </div>
       </div>
     </header>
 
 <!---recent projects--->
-   <section class="hero container fluid">
-    <div class="row welcome text-center">
+  
+   <section class="welcome container-fluid">
+     <div class="parallax">
+    <div class="text-center">
       <div class="col-12">
         <h1 class="display-4">Recent Projects</h1>
       </div>
     </div>
-  </section>  
+    </div>
+   </section>
+   
+   
 
 <!---projects--->
-
-  <div class= "projects">
-    <section class= "row no-gutters container-fluid ">
-      <div class="project1 col-md-6">
+<div class="container-fluid no-gutters row projects">
+  
+    
+      <div class="project1 col-md-6 col-lg-3">
         <div class="hovereffect">
           <img class="img-fluid" src="images/Hatch Screens.png" alt="project screens">
              <div class="overlay">
@@ -88,7 +93,7 @@
     </div>
 
 
-    <div class="col-md-6">
+    <div class="col-md-6 col-lg-3">
       <div class="hovereffect">
         <img class="img-fluid" src="images/macbook.png" alt="Wesley's Shoes">
             <div class="overlay">
@@ -98,10 +103,10 @@
             </div>
       </div>
     </div>
-  </section>
+  
 
-  <section class= "row no-gutters container-fluid">
-    <div class="col-md-6">
+  
+    <div class="col-md-6 col-lg-3">
       <div class="hovereffect">
          <img class="img-fluid" src="images/blocCode.png" alt="Wesley's Shoes">
            <div class="overlay">
@@ -112,42 +117,45 @@
       </div>
     </div>
 
-    <div class="col-md-6">
+    <div class="col-md-6 col-lg-3">
       <div class="hovereffect">
         <img class="img-fluid" src="images/gradient3.png" alt="coming SOON">
             <div class="overlay">
               <h2>Coming Soon</h2>
 				      <button type="button" class="btn btn-outline-light"><a href="#">LINK HERE</a></button>
-				      </p>
+				      
             </div>
         </div>
       </div>
-
-    </section>
-  </div>
+    
+    
+    </div>
+  
 
 <!---footer--->
 
- <footer class="container-fluid padding">
+ <footer class="container-fluid">
     <h3 class= "text-center">call me, on the line<br>(or rather drop me a line)</h3>
     <h4 class= "text-center">stephjogreen@gmail.com</h4>
-    <div class="row text-center padding">
-      <div class= "col-4 social">
+    <article class="social">
+    <div class="row">
+      <div class= "col-4 text-center">
         <a href="https://www.linkedin.com/in/stephjogreen/">
           <img src="images/LinkedIn.png" alt="linkedIn">
         </a>
       </div>
-      <div class= "col-4 social">
+      <div class= "col-4 text-center">
         <a href="https://twitter.com/Stephjogreen">
             <img src="images/Twitter.png" alt="Twitter">
         </a>
       </div>
-      <div class= "col-4 social">
+      <div class= "col-4 text-center">
         <a href="https://github.com/stephjogreen">
           <img src="images/Github.png" alt="github">
         </a>
       </div>
     </div>
+    </article>
   </footer>
 
 

@@ -45,13 +45,7 @@ html, body {
 
 /*image caption*/
 
-.hero {
-  color: #fafafa;
-  padding: 8rem;
-  background-image: url("images/sunset.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
+
 
 
 
@@ -66,15 +60,30 @@ jumbotron.padding {
   padding: 0;
 }
 
+
+/*recent projects*/
+
+
 .welcome {
   color: #fafafa;
-  width: 100%;
+  
   margin: 0 auto;
   padding-top: 10rem;
   padding-bottom: 10rem;
+}
+
+.parallax {
+  /* The image used */
   background-image: url("images/sunset.png");
-  background-repeat: no-repeat;
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
   background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
@@ -88,9 +97,6 @@ jumbotron.padding {
   margin: 0;
 }
 
-.project1 {
-  background-color: #06465C;
-}
 
 .hovereffect {
   width: 100%;
@@ -174,14 +180,13 @@ jumbotron.padding {
 
 
 /*footer*/
-footer {
+footer.container-fluid {
   padding-top: 6rem;
   padding-bottom: 6rem;
 }
 
 .social {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding: 5rem;
 }
 
 
@@ -191,10 +196,8 @@ footer {
 
 
 /*---Media Queries --*/
-@media (max-width: 992px) {
-.social {
-  width: 75%;
-}
+@media (min-width: 992px) {
+
 
 
 
@@ -205,10 +208,7 @@ footer {
 @media (max-width: 576px) {
 
 
-  .social {
-    padding: .7rem;
-  }
-}
+  
 
 
 /*
