@@ -55,9 +55,9 @@
 
 <!---Jumbotron--->
 
-    <header class= "container-fluid">
-      <div class="row jumbotron">
-        <div class="mx-auto col-xs-12 col-sm-12 col md-12 col-lg-9 col-xl-9">
+    <header class= "jumbotron">
+      <div class="row">
+        <div class="mx-auto col-lg-9 col-xl-9">
           <p class="lead">UX/UI | User Research | Prototyping | Accessability | Frontend Coding | Branding | Mood Boards</p>
         </div>
       </div>
@@ -66,10 +66,9 @@
 <!---recent projects--->
 <div class="parallax">
    <section class="container-fluid welcome">
-     <div class="parallax">
+     
     <div class="text-center">
       <div class="col-12">
-        
         <h1 class="display-4">Recent Projects</h1>
       </div>
     </div>
@@ -80,63 +79,70 @@
    
 
 <!---projects--->
-<div class="container-fluid no-gutters row projects">
-  
-    
-      <div class="project1 col-md-6 col-lg-3">
-        <div class="hovereffect">
-          <img class="img-fluid" src="images/Hatch Screens.png" alt="project screens">
-             <div class="overlay">
-               <h2>HATCH</h2>
-               <p>Cloud storage and pinboard style <br> social media for Architects <br></p>
-               <p>
-                  <a href="project.html">Case Study</a>
-                </p>
-             </div>
+
+
+  <div class="container-fluid no-gutters">
+    <div class="row project1">
+      <div class="project col-sm-6">
+        <h2>HATCH</h2>
+        <p>Cloud storage and pinboard style social media for Architects</p>
+        <div>
+          <a href="project.html"><button type="button" class="btn btn-outline-light">Case Study</button></a>
         </div>
-    </div>
-
-
-    <div class="col-md-6 col-lg-3">
-      <div class="hovereffect">
-        <img class="img-fluid" src="images/macbook.png" alt="Wesley's Shoes">
-            <div class="overlay">
-                <h2>Wesley's Shoes</h2>
-                <p>E-commerce site developed with Shopify</p>
-                <p>
-                    <a href="https://www.wesleyshoes.com/">View Site</a>
-                  </p>
-            </div>
+      </div>
+      <div class="col-sm-6">
+        <img class="snippet img-fluid" src="images/Hatch Screens.png" alt="project screens">   
       </div>
     </div>
-  
+  </div>
 
-  
-    <div class="col-md-6 col-lg-3">
-      <div class="hovereffect">
-         <img class="img-fluid jams" src="images/blocCode.png" alt="Bloc Jams">
-           <div class="overlay">
-             <h2>Bloc Jams</h2>
-             <p>A basic jQuery media player</p>
-             <p>
-                <a href="https://blocjamssjg.netlify.com/">View Site</a>
-              </p>
+  <div class="container-fluid no-gutters">
+    <div class="row project2">
+      
+      <div class="project col-sm-6">
+        
+        <h2>Wesley's Shoes</h2>
+        <p>E-commerce site developed with Shopify</p>
+        <div>
+            <a href="https://www.wesleyshoes.com/"><button type="button" class="btn btn-outline-dark">View Site</button></a>
+        </div>
+       
+      </div>
+      <div class="col-sm-6">
+          <img class="snippet img-fluid" src="images/macbook.png" alt="Wesley's Shoes">   
+        </div>
+    </div>
+  </div>
+
+  <div class="container-fluid no-gutters">
+      <div class="row project3">
+        <div class="project col-sm-6">
+          <h2>Bloc Jams</h2>
+          <p>A basic jQuery media player</p>
+          <div>
+              <a href="https://blocjamssjg.netlify.com/"><button type="button" class="btn btn-outline-dark">View Site</button></a>
+          </div>
+        </div>
+        <div class="col-md-6">
+            <img class="snippet img-fluid" src="images/blocCode.png" alt="View Site">
           </div>
       </div>
     </div>
 
-    <div class="col-md-6 col-lg-3">
-      <div class="hovereffect">
-        <img class="img-fluid" src="images/gradient3.png" alt="coming SOON">
-            <div class="overlay">
-              <h2>Coming Soon</h2>
-				      <p>
-                  <a href="#">Link Here</a>
-                </p>
+    <div class="container-fluid no-gutters">
+        <div class="row project1">
+          <div class="project col-sm-6">
+            <h2>Coming Soon</h2>
+            <p>Something really awesome.</p>
+            <div>
+                <a href="#"><button type="button" class="btn btn-outline-light">Coming Soon</button></a>
+            </div>
+          </div>
+          <div class="col-md-6">
+              <img class="snippet img-fluid" src="images/sunset.png" alt="coming SOON">
             </div>
         </div>
       </div>
-    
     
     </div>
   
@@ -144,10 +150,11 @@
 <!---footer--->
 
  <footer class="container-fluid">
+  <div class="parallax2">
     <h3 class= "text-center">call me, on the line<br>(or rather drop me a line)</h3>
     <h4 class= "text-center">stephjogreen@gmail.com</h4>
     <article class="social">
-    <div class="row">
+    <div class="row bump">
       <div class= "col-4 text-center">
         <a href="https://www.linkedin.com/in/stephjogreen/">
           <img src="images/LinkedIn.png" alt="linkedIn">
@@ -165,6 +172,7 @@
       </div>
     </div>
     </article>
+    </div>
   </footer>
 
 
