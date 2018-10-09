@@ -9,7 +9,6 @@ html, body {
   color: #222;
 }
 
-
 /*navigation*/
 
 .navbar {
@@ -198,7 +197,10 @@ aside.col-md-6 {
 
 .future {
   background-color: #73BCB1;
-  
+}
+
+.last {
+  padding-left: 1rem;
 }
 
 
