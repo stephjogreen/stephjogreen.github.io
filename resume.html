@@ -1,31 +1,66 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>About Me</title>
-    <link rel="stylesheet" type="text/css" href="reset.css">
-    <link rel="stylesheet" type="text/css" href="resumestyle.css">
+    <title>Resume</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
     <link href="https://fonts.googleapis.com/css?family=Abel|Josefin+Sans|Montserrat" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/favicon.png" sizes="32x32" />
+	  <link rel="icon" type="image/png" href="images/favicon.png" sizes="16x16" />
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/resume.css">
+
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="index.html"><img src="images/Personal Logo.png" alt="personal logo"></a>
-        <ul>
-          <li><a href="about.html">about</a></li>
-          <li><a href="resume.html">resume</a></li>
-          <li><a href="contact.html">contact</a></li>
-        </ul>
-      </nav>
-      <img src="images/UX Resume Dos.png"> <!--code?-->
-    </header>
-    <footer>
-      <h3>let's connnect</h3>
-      <h4>stephjogreen@gmail.com</h4>
-        <ul>
-          <li><a href="index.html"><img src="images/LinkedIN.png" alt="linkedIn"></a>
-          <li><a href="index.html"><img src="images/Twitter.png" alt="Twitter"></a>
-          <li><a href="index.html"><img src="images/Github.png" alt="github"></a>
-        </ul>
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+      <section class= "container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="images/Personal Logo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class= "collapse navbar-collapse" id="navbarResponsive">
+          <ul class= "navbar-nav ml-auto">
+            <li class= "nav-item"><a class="nav-link" href="about.html">about</a></li>
+            <li class= "nav-item"><a class="nav-link" href="resume.html">resume</a></li>
+            <li class= "nav-item"><a class="nav-link" href="contact.html">contact</a></li>
+          </ul>
+          </div>
+      </section>
+    </nav>
+
+    <article class="resume container-fluid">
+      <img class="resume2 img-fluid d-block mx-auto" src="images/UX Resume Dos.png"> <!--code?-->
+    </article>
+
+
+    <footer class="container-fluid">
+      
+        <h3 class= "text-center">call me, on the line<br>(or rather drop me a line)</h3>
+        <h4 class= "text-center">stephjogreen@gmail.com</h4>
+        <article class="social">
+          <div class="row bump">
+            <div class= "col-4 text-center">
+              <a href="https://www.linkedin.com/in/stephjogreen/">
+                <img src="images/LinkedIn.png" alt="linkedIn">
+              </a>
+            </div>
+            <div class= "col-4 text-center">
+              <a href="https://twitter.com/Stephjogreen">
+                <img src="images/Twitter.png" alt="Twitter">
+              </a>
+            </div>
+            <div class= "col-4 text-center">
+              <a href="https://github.com/stephjogreen">
+                <img src="images/Github.png" alt="github">
+              </a>
+            </div>
+          </div>
+        </article>
+      
     </footer>
 
         <!-- Global site tag (gtag.js) - Google Analytics -->

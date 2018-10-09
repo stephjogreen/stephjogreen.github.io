@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Josefin+Sans|Montserrat');
+
+
+html, body {
+    height: 100%;
+    line-height: 2rem;
+    width: 100%;
+    font-family: "josefin sans", "helvetica", sans-serif;
+    color: #222;
+  }
+
+  /*navigation*/
+
+  .navbar {
+    padding: .8rem;
+  }
+  
+  .navbar-nav li {
+    padding-right: 4rem;
+  }
+  
+  .nav-link {
+    font-size: 1.1rem;
+    color: #06465C /*working?*/
+  }
+
+  /*resume*/
+
+  .resume {
+    background-image: url("../images/splatt.png");  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .resume2 {
+      padding: 7rem 0 7rem 0;
+  }
+
+
+
+  /*footer*/
+
+  footer.container-fluid {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+  
+  .social {
+    padding: 5rem;
+  }
+
+  .bump img {
+    margin-top: 10px;
+    -webkit-transition: margin 0.25s ease-out;
+    -moz-transition: margin 0.25s ease-out;
+    -o-transition: margin 0.25s ease-out;
+  }
+
+  .bump img:hover {
+    margin-top: 3px;
+} 
+
+  }
