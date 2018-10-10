@@ -9,6 +9,9 @@ html, body {
     color: #222;
   }
 
+  .row {
+    margin: 0;
+  }
 
   /*navigation*/
 
@@ -23,6 +26,10 @@ html, body {
   .nav-link {
     font-size: 1.1rem;
     color: #06465C /*working?*/
+  }
+
+  .nav-logo {
+    padding-right: 1.5rem;
   }
 
   /*photo*/

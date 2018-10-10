@@ -13,6 +13,9 @@ html, body {
   padding: 0;
 }
 
+div.col-sm-6 P{
+  padding: 0;
+}
 
 
 /*navigation*/
@@ -29,7 +32,13 @@ html, body {
   font-size: 1.1rem;
 }
 
+.nav-logo {
+  padding-right: 1.5rem;
+}
+
 /*intro*/
+
+
 
 .intro {
   padding-top: 7rem;
@@ -37,35 +46,12 @@ html, body {
 }
 
 .hello {
-  padding: 4rem;
+  padding: 3rem;
 }
 
-
-
-
-/*image caption*/
-
-
-
-
-
-/*jumbotron*/
-
-.jumbotron {
-  border-radius: 0;
-  margin-bottom: 0;
- 
+.logo {
+  max-height: 250px;
 }
-
-jumbotron.padding {
-  padding: 0;
-}
-
-p.lead {
-  padding: 2rem;
-}
-
-
 
 
 /*recent projects*/
@@ -74,13 +60,13 @@ p.lead {
 .welcome {
   color: #222;
   margin: 0 auto;
-  padding: 10rem 0 10rem 0;
+  padding: 7rem 0 7rem 0;
 }
 
 .parallax {
   /* The image used */
   background-image: url("../images/splatt.png");  
-  min-height: 450px;
+  min-height: 300px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -119,9 +105,6 @@ img.snippet {
   height: 400px;
   width: 400px;
 }
-
-
-
 
 
 /*footer*/
@@ -165,21 +148,18 @@ img.snippet {
 
 
 
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
 
-
+  .logo {
+    max-height: 350px;
+  }
+}
 
 @media (min-width: 576px) {
 
   .hello {
     padding: 2.5rem;
   }
- 
-
-  
-
-
-
 }
 
 
