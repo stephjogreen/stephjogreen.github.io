@@ -210,6 +210,10 @@ aside.col-md-6 {
   padding-left: 1rem;
 }
 
+.landing {
+  max-height: 600px;
+}
+
 
 /*conclusion*/
 
@@ -258,6 +262,10 @@ footer {
    padding: 5rem;
  }
 
+ .landing {
+  float: right;
+}
+
  
 } 
 
@@ -267,6 +275,7 @@ footer {
   .flow {
     padding-left: 0;
   }
+
 
   
 }

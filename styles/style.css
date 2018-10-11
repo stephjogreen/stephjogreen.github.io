@@ -13,10 +13,6 @@ html, body {
   padding: 0;
 }
 
-div.col-sm-6 P{
-  padding: 0;
-}
-
 
 /*navigation*/
 
@@ -63,12 +59,9 @@ div.col-sm-6 P{
   padding: 7rem 0 7rem 0;
 }
 
-.parallax {
-  /* The image used */
+.splattImage {
   background-image: url("../images/splatt.png");  
   min-height: 300px;
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -125,7 +118,7 @@ img.snippet {
   margin-top: 3px;
 }
 
-.parallax2 {
+.splattImage2 {
   background-image: url("../images/splatt.png");  
   min-height: 300px;
   background-attachment: fixed;
@@ -159,6 +152,11 @@ img.snippet {
 
   .hello {
     padding: 2.5rem;
+  }
+
+  .row {
+    margin-left: inherit;
+    margin-right: inherit;
   }
 }
 
