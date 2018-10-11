@@ -89,6 +89,10 @@ html, body {
 
   /*footer*/
 
+  .email {
+    color: #222 !important;
+  }
+
   footer.container-fluid {
     padding-top: 6rem;
     padding-bottom: 6rem;
@@ -107,9 +111,10 @@ html, body {
 
   .bump img:hover {
     margin-top: 3px;
-} 
+    } 
+  
 
-  }
+
 
   /*---Media Queries --*/
 @media (min-width: 992px) {}

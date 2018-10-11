@@ -25,9 +25,8 @@ html, body {
   
   .nav-link {
     font-size: 1.1rem;
-    color: #06465C /*working?*/
   }
-
+  
   .nav-logo {
     padding-right: 1.5rem;
   }
@@ -50,6 +49,10 @@ html, body {
 
   /*footer*/
 
+  .email {
+    color: #222 !important;
+  }
+
   footer.container-fluid {
     padding-top: 6rem;
     padding-bottom: 6rem;
@@ -70,4 +73,16 @@ html, body {
     margin-top: 3px;
 } 
 
+  
+
+  .email {
+    color: #222 !important;
   }
+
+  @media (min-width: 992px) {}
+
+
+  @media (min-width: 768px) {}
+
+  @media (min-width: 576px) {}
+  
