@@ -33,18 +33,37 @@ html, body {
 
   /*resume*/
 
-  .resume {
+ .summary {
+   padding: 3rem 0 3rem 0;
+ }
+
+  .resume2 {
+    padding: 7rem 0 7rem 0;
+  }
+
+  .mobile-resume {
+   
+    padding: 7rem 2rem 0rem 2rem;
+    
+  }
+
+  .printable {
+    margin: 0 auto;
+    padding: 5rem 0 5rem 0;
+  }
+
+  .background {
     background-image: url("../images/splatt.png");  
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  
+    z-index: 2;
   }
-
-  .resume2 {
-      padding: 7rem 0 7rem 0;
-  }
-
+  
+  
+  
 
 
   /*footer*/
@@ -79,10 +98,25 @@ html, body {
     color: #222 !important;
   }
 
-  @media (min-width: 992px) {}
+  @media (min-width: 992px) {
+    .mobile-resume {
+      padding: 0 10rem 0 10rem;
+    }
+  }
+
 
 
   @media (min-width: 768px) {}
 
-  @media (min-width: 576px) {}
+
+
+  @media (max-width: 576px) {
+    .resume {
+      display: none;
+    }
+
+    .space {
+      padding-bottom: 3rem;
+    }
+  }
   
