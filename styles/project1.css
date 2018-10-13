@@ -9,6 +9,19 @@ html, body {
   color: #222;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  line-height: 2.5rem;
+  padding: 0 0 1rem 0;
+}
+
+h1, h3 {
+  font-weight: bolder;
+}
+
+p {
+  padding: 0 0 1rem 0;
+}
+
 .row {
   margin: 0;
 }
@@ -62,13 +75,11 @@ html, body {
 
 .turquoise {
   background-color: #06465C;
-  
 }
 
 h4.key {
   color: #fff;
-  margin: 10px;
-  
+  padding: 3rem;
 }
 
 /*gap in market*/
@@ -96,6 +107,9 @@ footer.container-fluid {
   padding: 5rem;
 }
 
+.icon {
+  padding: 2rem 0 2rem 0;
+}
 
 
 /*strategy*/
@@ -104,11 +118,6 @@ footer.container-fluid {
   background-color: #06465C;
   color: #fff;
 }
-
-.flow {
-  padding-left: 7rem;
-}
-
 
 
 
@@ -174,7 +183,6 @@ footer.container-fluid {
 .style-guide {
   background-color: #06465C;
   color: #fff;
-  
 }
 
 aside.col-md-6 {
@@ -266,14 +274,19 @@ footer {
   float: right;
 }
 
+.imac {
+  padding-top: 2rem;
+}
+
  
 } 
 
 
 @media (max-width: 576px) {
 
-  .flow {
-    padding-left: 0;
+
+  .competitive {
+    padding: 2rem
   }
 
 
