@@ -21,7 +21,7 @@ html, body {
 }
 
 .navbar-nav li {
-  padding-right: 4rem;
+  padding-left: 4rem;
 }
 
 .nav-link {
@@ -34,10 +34,13 @@ html, body {
 
 /*intro*/
 
-
+.hero {
+  font-size: 3.5rem;
+  font-weight: bolder;
+}
 .intro {
-  padding-top: 7rem;
-  padding-bottom:7rem;
+  padding-top: 6rem;
+  padding-bottom:6rem;
 }
 
 .hello {
@@ -152,6 +155,12 @@ img.snippet {
 
   .project {
     padding: 5rem 5rem 5rem 10rem;
+  }
+
+  .main {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
   }
 }
 
