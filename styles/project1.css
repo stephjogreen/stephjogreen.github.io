@@ -53,15 +53,12 @@ p {
 
 /*problem/solution*/
 
-.problem {
-  padding: 5rem;
-}
+
 
 /*roles*/
 
 .tools {
   background-color: #06465C;
-  
 }
 
 
@@ -79,7 +76,7 @@ p {
 
 h4.key {
   color: #fff;
-  padding: 3rem;
+  padding: 2rem;
 }
 
 /*gap in market*/
@@ -88,10 +85,6 @@ h4.gap {
   padding: 2rem;
 }
 
-.graph {
-  margin-left: 4rem;
-  padding: 2rem;
-}
 .survey {
   padding: 2rem;
   background-color: #06465C;
@@ -143,14 +136,17 @@ footer.container-fluid {
 
 /*information architecture*/
 
-.information {
-  padding: 5rem;
-}
-
-.maps {
-  width: 90%;
-  padding-bottom: 2rem;
+.architecture {
+  background-image: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url("../images/siteMapUserFlow.png");
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   
+
 }
 
 /*wireframes*/
@@ -159,20 +155,14 @@ footer.container-fluid {
   background-color: #73BCB1
 }
 
-.wire-mobile {
-  padding: 3rem;
-}
-
-
-.wire-desktop, .wire-files {
+.wire-padding {
   padding: 1rem;
 }
 
+
 /*branding*/
 
-.mindMap {
-  padding: 3rem;
-}
+
 
 .logo {
   padding: 3rem;
@@ -242,13 +232,6 @@ footer {
 }
 
 
-
-
-
-
-
-
-
 /*---Media Queries --*/
 @media (max-width: 992px) {}
 
@@ -257,9 +240,9 @@ footer {
 
 @media (min-width: 768px) {
 
-.mindMap {
-  margin-left: 40px;
- }
+  .logo2 {
+    padding-top: 4rem;
+  }
 
  .social {
    width: 60%;
