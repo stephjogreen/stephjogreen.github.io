@@ -71,11 +71,7 @@ html, body {
 
 /*projects*/
 
-.main {
-  display: flex; 
-  align-items: center; 
-  justify-content: center;
-}
+
 
 .project {
   padding: 5rem;
@@ -134,7 +130,6 @@ img.snippet {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
   padding-top: 6rem;
   padding-bottom: 6rem;
 }
@@ -161,7 +156,10 @@ img.snippet {
     max-height: 350px;
   }
 
- 
+  .social {
+    width: 60%;
+    margin: 0 auto;
+  }
 
   
 }

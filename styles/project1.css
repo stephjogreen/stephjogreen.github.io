@@ -22,10 +22,9 @@ p {
   padding: 0 0 1rem 0;
 }
 
-.row {
-  margin: 0;
+.container-fluid {
+  padding: 0;
 }
-
 
 /*navigation*/
 
@@ -41,8 +40,6 @@ p {
   font-size: 1.1rem;
   color: #06465C /*working?*/
 }
-
-
 
 /*intro*/
 
@@ -145,8 +142,6 @@ footer.container-fluid {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  
-
 }
 
 /*wireframes*/
@@ -222,13 +217,34 @@ aside.col-md-6 {
 
 /*footer*/
 
-footer {
-  
-  padding: 5rem;
+.email {
+  color: #222 !important;
 }
 
 .social {
   padding: 5rem;
+}
+
+.bump img {
+  margin-top: 10px;
+  -webkit-transition: margin 0.25s ease-out;
+  -moz-transition: margin 0.25s ease-out;
+  -o-transition: margin 0.25s ease-out;
+}
+
+.bump img:hover {
+  margin-top: 3px;
+}
+
+.splattImage2 {
+  background-image: url("../images/splatt.png");  
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
 
@@ -271,8 +287,6 @@ footer {
   .competitive {
     padding: 2rem
   }
-
-
   
 }
 
