@@ -1,311 +1,69 @@
-@import url('https://fonts.googleapis.com/css?family=Abel|Josefin+Sans|Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 
 html, body {
-  height: 100%;
-  line-height: 1.5rem;
-  width: 100%;
-  font-family: "Montserrat", "helvetica", sans-serif;
-  color: #222;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  line-height: 2.5rem;
-  padding: 0 0 1rem 0;
-}
-
-h1, h3 {
-  font-weight: bolder;
-}
-
-p {
-  padding: 0 0 1rem 0;
-}
-
-.container-fluid {
-  padding: 0;
-}
-
-/*navigation*/
-
-.navbar {
-  padding: .8rem:
-}
-
-.navbar-nav li {
-  padding-right: 4rem;
-}
-
-.nav-link {
-  font-size: 1.1rem;
-  color: #06465C /*working?*/
-}
-
-/*intro*/
-
-.intro {
-  padding: 2rem;
-  margin: 40px 0 40px 0;
-}
-
-/*problem/solution*/
-
-
-
-/*roles*/
-
-.tools {
-  background-color: #06465C;
-}
-
-
-/*research*/
-
-.research {
-  padding: 5rem;
-}
-
-/*key findings*/
-
-.turquoise {
-  background-color: #06465C;
-}
-
-h4.key {
-  color: #fff;
-  padding: 2rem;
-}
-
-/*gap in market*/
-
-h4.gap {
-  padding: 2rem;
-}
-
-.survey {
-  padding: 2rem;
-  background-color: #06465C;
-}
-
-footer.container-fluid {
-  margin: 0;
-}
-
-/*competitive analysis*/
-
-.competitive {
-  padding: 5rem;
-}
-
-.icon {
-  padding: 2rem 0 2rem 0;
-}
-
-
-/*strategy*/
-
-.strategy {
-  background-color: #06465C;
-  color: #fff;
-}
-
-
-
-/*personas*/
-
-.headshot {
-  padding-top: 2rem;
-}
-.card-img-top {
-  height: 7rem;
-  width: 7rem;
-}
-
-.card-deck {
-  margin: 0;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-.personas {
-  background-color: #73BCB1
-}
-
-/*information architecture*/
-
-.architecture {
-  background-image: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url("../images/siteMapUserFlow.png");
-  min-height: 300px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-/*wireframes*/
-
-.wire {
-  background-color: #73BCB1
-}
-
-.wire-padding {
-  padding: 1rem;
-}
-
-
-/*branding*/
-
-
-
-.logo {
-  padding: 3rem;
-}
-
-/*style guide*/
-
-.style-guide {
-  background-color: #06465C;
-  color: #fff;
-}
-
-aside.col-md-6 {
-  padding: 2rem;
-}
-
-/*color palette*/
-
-.color {
-  padding: 1.5rem;
-}
-
-/*initial designs*/
-
-.iterations {
-  background-color: #06465C;
-  color: #fff;
-}
-
-.initial {
-  max-width: 90%;
-  padding-bottom: 1.5rem;
-  padding-top: 1.5rem;
-}
-
-/*updates*/
-
-.future {
-  background-color: #73BCB1;
-}
-
-.last {
-  padding-left: 1rem;
-}
-
-.landing {
-  max-height: 600px;
-}
-
-
-/*conclusion*/
-
-.conclusion {
-  background-color: #06465C;
-  color: #fff;
-}
-
-/*footer*/
-
-.email {
-  color: #222 !important;
-}
-
-.social {
-  padding: 5rem;
-}
-
-.bump img {
-  margin-top: 10px;
-  -webkit-transition: margin 0.25s ease-out;
-  -moz-transition: margin 0.25s ease-out;
-  -o-transition: margin 0.25s ease-out;
-}
-
-.bump img:hover {
-  margin-top: 3px;
-}
-
-.splattImage2 {
-  background-image: url("../images/splatt.png");  
-  min-height: 300px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-}
-
-
-/*---Media Queries --*/
-@media (max-width: 992px) {}
-
-
-
-
-@media (min-width: 768px) {
-
-  .logo2 {
-    padding-top: 4rem;
+    height: 100%;
+    line-height: 1.5rem;
+    width: 100%;
+    font-family: "Roboto", "helvetica", sans-serif;
+    color: #222;
   }
 
- .social {
-   width: 60%;
-   margin: 0 auto;
- }
+  h1, h2, h3, h4, h5, h6 {
+    line-height: 2.5rem;
+    padding: 1rem 0 1rem 0;
+  }
 
- aside.col-md-6 {
-   padding: 5rem;
- }
-
- .landing {
-  float: right;
-}
-
-.imac {
-  padding-top: 2rem;
-}
-
- 
-} 
-
-
-@media (max-width: 576px) {
-
-
-  .competitive {
-    padding: 2rem
+  h1, h3 {
+    font-weight: bolder;
   }
   
-}
+  p, img {
+    padding: 0 0 1rem 0;
+  }
 
+  .button {
+      padding: 1rem 0 2rem 0;
+  }
 
+  
 
+  /*navigation*/
 
-/*
-Extra small (xs) devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap
+.navbar {
+    padding: .8rem:
+  }
+  
+  .navbar-nav li {
+    padding-right: 4rem;
+  }
+  
+  .nav-link {
+    font-size: 1.1rem;
+  }
 
-Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
+  /*key findings*/
 
-Medium (md) devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
+  .key {
+      
+      background-color: #4F4F4F;
+      padding: 1rem;
+      
+  }
 
-Large (lg) devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
+  /*personas*/
 
-Extra (xl) large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-*/
+  .headshot {
+    padding-top: 2rem;
+  }
+
+  .card-img-top {
+    height: 7rem;
+    width: 7rem;
+  }
+
+  .card-deck {
+    margin: 0;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
