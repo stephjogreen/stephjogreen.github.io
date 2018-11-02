@@ -34,7 +34,7 @@ html, body {
   /*resume*/
 
  .summary {
-   padding: 3rem 0 3rem 0;
+   padding: 2rem 0 2rem 0;
  }
 
   .resume2 {
@@ -62,6 +62,9 @@ html, body {
     z-index: 2;
   }
   
+  .space {
+    padding: 0;
+  }
   
   
 
@@ -97,6 +100,8 @@ html, body {
   .email {
     color: #222 !important;
   }
+
+/*media queries*/
 
   @media (min-width: 992px) {
     .mobile-resume {
