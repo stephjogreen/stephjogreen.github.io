@@ -7,25 +7,31 @@ html, body {
     width: 100%;
     font-family: "josefin sans", "helvetica", sans-serif;
     color: #222;
+    
   }
 
-  .row {
+
+  .container-fluid {
+    padding: 0;
     margin: 0;
+    
   }
 
+  
   /*navigation*/
 
   .navbar {
     padding: .8rem;
+    font-family: "josefin sans", "helvetica", sans-serif;
   }
   
   .navbar-nav li {
-    padding-right: 4rem;
+    padding-left: 4rem;
   }
   
   .nav-link {
     font-size: 1.1rem;
-    color: #06465C /*working?*/
+    
   }
 
   .nav-logo {
@@ -38,11 +44,17 @@ html, body {
     padding: 4rem;
 }
 
+/*body*/
+
+h2 {
+  padding-bottom: 2rem;
+}
+
 
  /*blockquote*/
 
  blockquote {
-     padding: 7rem;
+     padding: 4rem;
  }
 
 .blockquote {
@@ -56,64 +68,48 @@ html, body {
  /*body*/
 
  .text {
-     padding: 2rem;
+     padding: 2rem 0 2rem 0;
  }
 
-/*lines*/
-
-.lines {
-    padding: 2rem 0 2rem 0;
-}
-
-.turquoise {
-    width: 100%;
-    height: 30px;
-    margin:0;
-    background-color: #06465C;
-    }
-
-.teal {
-    width: 100%;
-    height: 30px;
-    margin:0;
-    background-color: #73BCB1;
-    }
-
-.mango {
-    width: 100%;
-    height: 30px;
-    margin:0;
-    background-color: #FF9831;
-}
- 
-
   /*footer*/
+
+  .footer {
+    font-family: "josefin sans", "helvetica", sans-serif;
+  }
+
 
   .email {
     color: #222 !important;
   }
-
-  footer.container-fluid {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-  }
   
   .social {
     padding: 5rem;
+    
   }
-
+  
   .bump img {
     margin-top: 10px;
     -webkit-transition: margin 0.25s ease-out;
     -moz-transition: margin 0.25s ease-out;
     -o-transition: margin 0.25s ease-out;
   }
-
+  
   .bump img:hover {
     margin-top: 3px;
-    } 
+  }
   
+  .splattImage2 {
+    background-image: url("../images/splatt.png");  
+    min-height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 6rem;
+    padding-bottom: 10rem;
     
+  }
+  
+
 
 
 
@@ -123,11 +119,18 @@ html, body {
 
 
 
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+
+  .social {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
 
 
 
 @media (min-width: 576px) {
-   
+
+ 
 
 }

@@ -20,7 +20,7 @@ html, body {
   }
   
   .navbar-nav li {
-    padding-right: 4rem;
+    padding-left: 4rem;
   }
   
   .nav-link {
@@ -52,15 +52,6 @@ html, body {
     padding: 5rem 0 5rem 0;
   }
 
-  .background {
-    background-image: url("../images/splatt.png");  
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  
-    z-index: 2;
-  }
   
   .space {
     padding: 0;
@@ -70,6 +61,16 @@ html, body {
 
 
   /*footer*/
+
+  .background {
+    background-image: url("../images/splatt.png");  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    z-index: 2;
+  }
 
   .email {
     color: #222 !important;
@@ -111,14 +112,18 @@ html, body {
 
 
 
-  @media (min-width: 768px) {}
+  @media (min-width: 768px) {
+    .social {
+      width: 60%;
+      margin: 0 auto;
+    }
+
+  }
 
 
 
   @media (max-width: 576px) {
-    .resume {
-      display: none;
-    }
+    
 
     .space {
       padding-bottom: 3rem;
