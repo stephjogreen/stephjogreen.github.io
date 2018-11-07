@@ -7,6 +7,7 @@ html, body {
   width: 100%;
   font-family: "josefin sans", "helvetica", sans-serif;
   color: #222;
+  overflow-x: hidden;
 }
 
 .container-fluid {
